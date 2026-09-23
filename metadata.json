@@ -1,0 +1,8 @@
+{
+  "name": "Birthday Dinner Invitation",
+  "description": "A cute, minimal, and personal birthday dinner invitation for someone special.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
