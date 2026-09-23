@@ -8,8 +8,8 @@ export function InvitationDetails() {
   // Google Calendar URL link
   const createGoogleCalendarUrl = () => {
     const title = encodeURIComponent("Dinner & Photobooth Date ♡");
-    const details = encodeURIComponent("Dinner date at Homemade Kitchen + Photobooth photos later! ♡\nDress code: Just to be you!");
-    const location = encodeURIComponent("Homemade Kitchen");
+    const details = encodeURIComponent("Dinner date at 15 Grams Homemade Pasta + Photobooth photos later! ♡\nDress code: Just to be you!");
+    const location = encodeURIComponent("15 Grams Homemade Pasta");
     // 25 September 2026, 18:30 to 21:00 (Local time)
     const dates = "20260925T183000/20260925T210000";
     return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${dates}&details=${details}&location=${location}`;
@@ -26,8 +26,8 @@ export function InvitationDetails() {
       'DTSTART:20260925T183000',
       'DTEND:20260925T210000',
       'SUMMARY:Dinner & Photobooth Date ♡',
-      'DESCRIPTION:Dinner at Homemade Kitchen + Photobooth date with your favorite person. Dress code: Just to be you ♡',
-      'LOCATION:Homemade Kitchen',
+      'DESCRIPTION:Dinner at 15 Grams Homemade Pasta + Photobooth date with your favorite person. Dress code: Just to be you ♡',
+      'LOCATION:15 Grams Homemade Pasta',
       'STATUS:CONFIRMED',
       'END:VEVENT',
       'END:VCALENDAR'
@@ -46,7 +46,7 @@ export function InvitationDetails() {
     setTimeout(() => setCalendarAdded(false), 3000);
   };
 
-  const mapsQuery = encodeURIComponent("Homemade Kitchen");
+  const mapsQuery = encodeURIComponent("15 Grams Homemade Pasta");
   const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${mapsQuery}`;
 
   return (
@@ -120,7 +120,7 @@ export function InvitationDetails() {
                   Place
                 </div>
                 <div className="text-lg font-medium text-[#3D2E28] leading-tight">
-                  Homemade Kitchen
+                  15 Grams Homemade Pasta
                 </div>
                 <div className="mt-2.5">
                   <a

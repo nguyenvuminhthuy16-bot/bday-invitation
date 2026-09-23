@@ -165,7 +165,7 @@ export function RsvpSection() {
                 </span>
               </div>
               <div className="text-sm font-medium text-[#3D2E28]">
-                Homemade Kitchen
+                15 Grams Homemade Pasta
               </div>
               <div className="text-xs text-[#7A665E] mt-0.5">
                 Friday, 25 September 2026 · 18:30 · Dinner + Photobooth 📸
